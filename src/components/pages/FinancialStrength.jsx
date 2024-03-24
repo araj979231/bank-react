@@ -250,7 +250,7 @@ const FinancialStrength = () =>{
             <div className="row">
                 <div className="col-12">
                     <h1 className="display-5 text-center">
-                        <span className="fw-800 text-white">Financial Strength</span>
+                        <span className="fw-800 text-white section-title">Financial Strength</span>
                     </h1>
                 </div>
             </div>

@@ -251,7 +251,7 @@ const HowToJoinUsMember = () => {
 
 
                 <div class=" mt-3  text-center">
-                        <button type="submit" class="btn btn-primary mt-4" id="memberMasterSubmitBtn">Submit</button>
+                        <button type="submit" class="btn btn-primary mt-4 mr-2" id="memberMasterSubmitBtn">Submit</button>
                         <button type="button" class="btn btn-secondary mt-4" id="memberMastercancel">Cancel</button>
                 </div>
                 <div class=" mt-3 text-center" id="printButtonContainer" style={{display: "none;"}}>

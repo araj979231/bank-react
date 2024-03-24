@@ -6,7 +6,7 @@ const Milestone = ({milestoneData,baseUrl}) => {
         <section className="why-choose-us sec-pd bg-img">
     <div className="container">
       <div className="sec-title text-center">
-        <h1 className="display-5  mb-5  text-center">
+        <h1 className="display-5  mb-5  text-center section-title">
           <span className="fw-800">Milestones</span>
       </h1>
         <span className="sec-bottom-hr"></span>
