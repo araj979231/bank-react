@@ -2665,7 +2665,7 @@ li.partner-slider-logo-list-item img {
 
 @media (max-width:391px) {
   .otp {
-    width: calc(100% / 6 - 10px) !important;
+    /* width: calc(100% / 6 - 10px) !important; */
     height: 42px !important;
   }
 }
