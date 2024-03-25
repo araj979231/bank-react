@@ -25074,9 +25074,7 @@ div.tagsinput span.tag a {
     display: inline-block;
   }
   .navbar-collapse {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+    display: block;
     margin-top: 0.5rem;
   }
 }
