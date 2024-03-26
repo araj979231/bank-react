@@ -48,7 +48,7 @@ const ChairmenMessage = () => {
                 <div className='container'>
                     <div className="row mt-4 border rounded py-4 px-4 bg-white">
                         <div className="col-lg-4 text-center">
-                            <img src={`${IMAGE_URL}/${chairmanMessage.image}`} className="img-fluid" alt="img" width="200" height="200" />
+                            <img src="https://thinkdream.in/bank/public/logo.jpeg" className="img-fluid" alt="img" width="200" height="200" />
                         </div>
                         <div className="col-lg-8">
                             <p dangerouslySetInnerHTML={{ __html: chairmanMessage.heading }}></p>

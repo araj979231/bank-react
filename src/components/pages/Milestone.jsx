@@ -14,9 +14,9 @@ const Milestone = ({milestoneData,baseUrl}) => {
       <div className="container">
       <div className="row mb-5">
             {milestoneData.map((item) => ( 
-                <div className="col-md-3 col-6" key={item.id}>
-                    <div className="trending-product-box bg-white shadow border pd-30-15 rounded position-relative text-center set-milestone">
-                        <img src={`${baseUrl}/${item.image}`} width="200" height="250" alt="icon" className="mx-auto d-block responsive" />
+                <div className="col-lg-3 col-6" key={item.id}>
+                    <div className="trending-product-box bg-white shadow border pd-30-15 rounded position-relative text-center set-milestone mb-3">
+                        <img src={`${baseUrl}/${item.image}`} width="200" height="250" alt="icon" className="img-fluid mx-auto d-block responsive" />
                         <h6 className="mt-3 mb-2">{item.name}</h6>
 
                     </div>
