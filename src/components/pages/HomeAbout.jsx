@@ -25,7 +25,7 @@ const HomeAbout = ({ announcementData,faqData,announcementLoading,faqLoading }) 
           <div className="row align-itmes-center">
             <div className="col-12 col-md-7">
 
-              <h1 className="display-5 mb-4">
+              <h1 className="display-5 mb-4 section-title">
                 <span className="fw-800 home_title_color">FAQs</span>
               </h1>
               {faqLoading ?  <div className='loader_div'><img className='loader_image' src={Loader} widt="50" height={50}/></div> : 
@@ -44,7 +44,7 @@ const HomeAbout = ({ announcementData,faqData,announcementLoading,faqLoading }) 
             </div>
             <div className="col-12 col-md-5">
               <h1 className="display-5 mb-4">
-                <span className="fw-800 home_title_color">Notice Board</span>
+                <span className="fw-800 home_title_color section-title">Notice Board</span>
               </h1>
               <div className="news-box" style={{minHeight:'371px !important;'}}>
                 {announcementLoading ? <div className='loader_div'><img className='loader_image' src={Loader} widt="50" height={50}/></div> :

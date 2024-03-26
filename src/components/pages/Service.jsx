@@ -60,7 +60,7 @@ const Service = ({servicesData,loading,baseUrl}) => {
       <div className="row">
           <div className="col-12">
               <h1 className="display-5  mb-5  text-center">
-                  <span className="fw-800 home_title_color">Our Schemes</span>
+                  <span className="fw-800 home_title_color section-title">Our Schemes</span>
               </h1>
           </div>
       </div>

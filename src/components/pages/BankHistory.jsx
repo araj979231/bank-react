@@ -30,15 +30,15 @@ const BankHistory = () => {
             </section>
             <section className="sec-pd bg-accent">
                 <div className="container">
-                        <nav aria-label="breadcrumb">
-                            <ol className="breadcrumb">
-                                <li className="breadcrumb-item"><Link to='/'>Home</Link></li>
-                                <li className="breadcrumb-item active" aria-current="page">Society history</li>
-                            </ol>
-                        </nav>
+                    <nav aria-label="breadcrumb">
+                        <ol className="breadcrumb">
+                            <li className="breadcrumb-item"><Link to='/'>Home</Link></li>
+                            <li className="breadcrumb-item active" aria-current="page">Society history</li>
+                        </ol>
+                    </nav>
                 </div>
             </section>
-            <div className="container">
+            <div className="container text-justify">
                 <div class="row mt-4 py-4 px-4 bg-white">
                     <div class="col-lg-4 text-center">
                         <img src={`${IMAGE_URL}/${bankhistory.image}`} class="img-fluid w-100" alt="img" width="200" height="200" />

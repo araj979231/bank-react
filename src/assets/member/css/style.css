@@ -25074,9 +25074,7 @@ div.tagsinput span.tag a {
     display: inline-block;
   }
   .navbar-collapse {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+    display: block;
     margin-top: 0.5rem;
   }
 }
@@ -25951,10 +25949,6 @@ div.tagsinput span.tag a {
   #settings-trigger {
     display: none;
   }
-}
-
-.nav-profile-name{
-  color:#000 !important;
 }
 
 /*# sourceMappingURL=../maps/vertical-layout-light/style.css.map */

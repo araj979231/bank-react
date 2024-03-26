@@ -6,7 +6,7 @@ const Profite = ({profits}) => {
 		      <div class="sec-title text-center">
 		       
 		        <h1 class="display-5  mb-2  text-center">
-		              <span class="fw-800 text-white">Profits</span>
+		              <span class="fw-800 text-white section-title">Profits</span>
 		          </h1>
 		        <span class="sec-bottom-hr sethrline"></span>
 		      </div>
