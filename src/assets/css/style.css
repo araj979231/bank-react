@@ -2669,3 +2669,14 @@ li.partner-slider-logo-list-item img {
     height: 42px !important;
   }
 }
+.why-choose-us img.img-fluid.mx-auto.d-block.responsive {
+  max-height: 200px;
+  object-fit: contain;
+}
+.form-check .form-check-label {
+  line-height: 22px;
+}
+.form-check .form-check-input {
+  margin-top: 3px;
+  margin-left: 0px !important;
+}

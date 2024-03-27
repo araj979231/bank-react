@@ -26,7 +26,7 @@ const MemberHeader = () => {
                 <a className="navbar-brand brand-logo" href=""><img src="http://thinkdream.in/bank/public/logo.jpeg" alt="logo" style={{borderRadius: "50%;",height: "50px;", width: "50px;" }} /></a>
                 <a className="navbar-brand brand-logo-mini" href=""><img src="http://thinkdream.in/bank/public/logo.jpeg" alt="logo" style={{borderRadius: "50%;",height: "50px;", width: "50px;" }} /></a>
                 <button className="navbar-toggler navbar-toggler align-self-center" type="button" data-toggle="minimize">
-                <i class="fa-solid fa-bars"></i>
+                <i class="fas fa-solid fa-bars"></i>
                 </button>
                 </div>
             </div>
@@ -61,7 +61,7 @@ const MemberHeader = () => {
                 </li>
                 </ul>
                 <button className="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button" data-toggle="offcanvas">
-                <span className="typcn typcn-th-menu"></span>
+                <span className="fas fa-bars"></span>
                 </button>
             </div>
             </nav>

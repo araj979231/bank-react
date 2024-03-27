@@ -24119,6 +24119,7 @@ div.tagsinput span.tag a {
 
 @media (max-width: 767px) {
   .content-wrapper {
+    max-width: 100% !important;
     padding: 1.5rem 1.5rem;
   }
 }
@@ -24388,13 +24389,13 @@ div.tagsinput span.tag a {
     top: 4.625rem;
     bottom: 0;
     overflow: auto;
-    right: -236px;
+    left: -100%;
     -webkit-transition: all 0.25s ease-out;
     -o-transition: all 0.25s ease-out;
     transition: all 0.25s ease-out;
   }
   .sidebar-offcanvas.active {
-    right: 0;
+    left: 0;
   }
 }
 
@@ -25952,3 +25953,10 @@ div.tagsinput span.tag a {
 }
 
 /*# sourceMappingURL=../maps/vertical-layout-light/style.css.map */
+
+.fixed-top .nav-item .nav-link {
+  color: #483d33 !important;
+}
+.content-wrapper {
+    max-width: calc(100% - 236px);
+}
